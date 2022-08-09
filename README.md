@@ -12,4 +12,5 @@
 4- git commit -m 'mensaje' -->
 5- git checkout -- . --> reconstruye todo al ultimo commit
 6- git log --> muestra todos los commit realizados
-7- git commit --amend --> permite editar el ultimo commit teclas i:insertar w:guardar q:salir
+7- git commit --amend --> permite editar el ultimo commit teclas i:insertar w:guardar q:salir !:inmediato
+8- git checkout -b rama-heroes --> crea y se cambia a la rama rama-heroes
