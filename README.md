@@ -16,4 +16,12 @@
 8.  git checkout -b rama-heroes --> crea y se cambia a la rama rama-heroes
 9.  git checkout master --> se cambia a la rama master
 10. git merge rama-heroes --> merge lo que esta en rama-heroes en la rama actual
-11. git branch -d rama-heroes --> elimina la rama rama-heroes
+    git branch -d rama-heroes --> elimina la rama rama-heroes
+11. git push --> sube los cambios a github
+12. git commit -am 'mensaje' --> ejecuta git add . y git commit -m en una linea
+
+# desde github
+
+1. git remote add origin https://github.com/juanpuleo66/gitsteps.git
+2. git branch -M main
+3. git push -u origin main
