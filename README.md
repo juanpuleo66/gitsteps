@@ -20,8 +20,15 @@
 11. git push --> sube los cambios a github
 12. git commit -am 'mensaje' --> ejecuta git add . y git commit -m en una linea
 
-# desde github
+# Desde github
 
 1. git remote add origin https://github.com/juanpuleo66/gitsteps.git
 2. git branch -M main
 3. git push -u origin main
+
+# Config global
+
+1. git config --global -e
+2. [alias]
+   s = status -sb
+   lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
